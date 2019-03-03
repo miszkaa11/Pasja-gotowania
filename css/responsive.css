@@ -1,0 +1,186 @@
+/* Body */
+
+@media (max-width: 990px) {
+	body {
+		padding-top: 0;
+	}
+}
+
+/* Header */
+
+@media (max-width: 990px) 
+
+
+
+
+
+
+@media (max-width: 990px) {
+	.page-header {
+		position: static;
+	}
+
+	.page-header > .container {
+		flex-direction: column;
+	}
+
+	.menu-brand {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+
+	.menu-links ul {
+		text-align: center;
+	}
+
+	.menu-links {
+		margin-bottom: 4px;
+	}
+
+	/* Slider */
+	@media (max-width: 990px) {
+		.slider .single-slide {
+			height: 400px;
+		}
+
+		.single-slide h2 {
+			font-size: 50px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.single-slide h2 {
+			font-size: 44px;
+		}
+	}
+}
+
+/* Feature boxes */
+
+@media (max-width: 800px) {
+	.feature-boxes {
+		margin-bottom: 0px;
+	}
+
+	.feature-box {
+		flex-basis: 47%;
+
+	}
+}
+
+@media (max-width: 540px) {
+	.feature-box {
+		flex-basis: 100%;
+	}
+}
+
+/* Newsletter */
+
+@media (max-width: 650px) {
+	.newsletter > .container {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.newsletter-text,
+	.newsletter-cta {
+		flex-basis: 100%;
+	}
+
+	.newsletter-text {
+		margin-bottom: 30px;
+	}
+}
+
+/* Gallery */
+
+@media (max-width: 800px) {
+	.gallery-item {
+		flex-basis: 47%;
+		flex-wrap: nowrap;
+	}
+}
+
+@media (max-width: 540px) {
+	.gallery-item {
+		flex-basis: 100%;
+	}
+}
+
+
+
+/* Footer */
+
+@media (max-width: 800px) {
+	.page-footer > .container {
+		flex-direction: column;
+	}
+
+	.contact-form,
+	.contact-info {
+		flex-basis: 100%;
+	}
+
+	.contact-form {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 500px) {
+	.form-group-1-2 {
+		flex-direction: column;
+	}
+
+	.form-group-1-2 div {
+		flex-basis: 100%;
+	}
+
+	.form-group-1-2 > div:first-child {
+		margin-bottom: 15px;
+	}
+}
+
+/* Single pages */
+
+@media (max-width: 800px) {
+
+	.single-content {
+		margin-bottom: 40px;
+	}
+}
+
+
+@media (max-width: 700px) {
+
+	/*	Single page */
+	.single-content article h2,
+	.single-content article h3 {
+		text-align: center;
+	}
+
+	/*	Single feature box */
+	.single-feature-icon {
+		float: none;
+		margin: 0 auto;
+	}
+
+
+	/*	Single gallery */
+	.gallery-author-links {
+		display: flex;
+		margin-top: 40px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.gallery-author-links a {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 500px) {
+	.single-content article h2 {
+		font-size: 38px;
+	}
+
+}
